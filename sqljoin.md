@@ -48,10 +48,10 @@ The INNER JOIN keyword selects all rows from both tables as long as there is a m
 
 #SQL LEFT JOIN Keyword
 The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2). The result is NULL in the right side when there is no match.
-`SELECT column_name(s)
-`FROM table1
-`LEFT JOIN table2
-`ON table1.column_name=table2.column_name;
+```SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name=table2.column_name;
 
 ![alt text](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/img_leftjoin.gif "Left JOIN")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
@@ -62,14 +62,14 @@ The LEFT JOIN keyword returns all rows from the left table (table1), with the ma
 The RIGHT JOIN keyword returns all rows from the right table (table2), with the matching rows in the left table (table1). The result is NULL in the left side when there is no match.
 
 SQL RIGHT JOIN Syntax
-`SELECT column_name(s)
-`FROM table1
-`RIGHT JOIN table2
-`ON table1.column_name=table2.column_name;
+```SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name=table2.column_name;
 
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "example")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
-[sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
+[sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1)
 
 #SQL FULL OUTER JOIN Keyword
 The FULL OUTER JOIN keyword returns all rows from the left table (table1) and from the right table (table2).
@@ -79,10 +79,10 @@ The FULL OUTER JOIN keyword returns all the rows from the left table (Customers)
 
 
 SQL FULL OUTER JOIN Syntax
-`SELECT column_name(s)
-`FROM table1
-`FULL OUTER JOIN table2
-`ON table1.column_name=table2.column_name;
+```SELECT column_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column_name=table2.column_name;
 
 #Diagram
 ![alt text](http://www.w3schools.com/sql/img_fulljoin.gif "full outter")
