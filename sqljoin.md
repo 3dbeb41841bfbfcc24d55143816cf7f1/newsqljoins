@@ -30,19 +30,19 @@ Now, turn & talk to your neighbor and discuss:
 #Different SQL JOINs
 Before we continue with examples, we will list the types of the different SQL JOINs you can use:
 
--INNER JOIN: Returns all rows when there is at least one match in BOTH tables
--LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
--RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
--FULL JOIN: Return all rows when there is a match in ONE of the tables
+*INNER JOIN: Returns all rows when there is at least one match in BOTH tables
+*LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
+*RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
+*FULL JOIN: Return all rows when there is a match in ONE of the tables
 
 #SQL INNER JOIN Keyword
 The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns in both tables.
 
 #SQL INNER JOIN Syntax
-`SELECT column_name(s)
-`FROM table1
-`INNER JOIN table2
-`ON table1.column_name=table2.column_name;
+```SELECT column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name=table2.column_name;
 
 ![alt text](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/img_innerjoin.gif "Inner JOIN")
 
@@ -67,9 +67,9 @@ FROM table1
 RIGHT JOIN table2
 ON table1.column_name=table2.column_name;
 
-![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "example")
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "right")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
-[sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1)
+[sql join right](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1)
 
 #SQL FULL OUTER JOIN Keyword
 The FULL OUTER JOIN keyword returns all rows from the left table (table1) and from the right table (table2).
