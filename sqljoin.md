@@ -85,7 +85,10 @@ SQL FULL OUTER JOIN Syntax
 `FULL OUTER JOIN table2
 `ON table1.column_name=table2.column_name;
 
-![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "example")
+![alt text](http://www.w3schools.com/sql/img_fulljoin.gif "full outter")
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlfullouterjoin.png "full outter")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
-[sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
+
+
+
 
