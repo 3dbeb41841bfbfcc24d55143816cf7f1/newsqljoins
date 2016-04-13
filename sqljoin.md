@@ -72,5 +72,20 @@ SQL RIGHT JOIN Syntax
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
 [sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
 
+#SQL FULL OUTER JOIN Keyword
+The FULL OUTER JOIN keyword returns all rows from the left table (table1) and from the right table (table2).
+The FULL OUTER JOIN keyword combines the result of both LEFT and RIGHT joins.
+The FULL OUTER JOIN keyword returns all the rows from the left table (Customers), and all the rows from the right table (Orders). If there are rows in "Customers" that do not have matches in "Orders", or if there are rows in "Orders" that do not have matches in "Customers", those rows will be listed as well.
 
+
+
+SQL FULL OUTER JOIN Syntax
+`SELECT column_name(s)
+`FROM table1
+`FULL OUTER JOIN table2
+`ON table1.column_name=table2.column_name;
+
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "example")
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
+[sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
 
