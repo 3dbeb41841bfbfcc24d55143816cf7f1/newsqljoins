@@ -30,10 +30,11 @@ Now, turn & talk to your neighbor and discuss:
 #Different SQL JOINs
 Before we continue with examples, we will list the types of the different SQL JOINs you can use:
 
-*INNER JOIN: Returns all rows when there is at least one match in BOTH tables
-*LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
-*RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
-*FULL JOIN: Return all rows when there is a match in ONE of the tables
+- INNER JOIN: Returns all rows when there is at least one match in BOTH tables
+
+- LEFT JOIN: Return all rows from the left table, and the matched rows from the right table
+- RIGHT JOIN: Return all rows from the right table, and the matched rows from the left table
+- FULL JOIN: Return all rows when there is a match in ONE of the tables
 
 #SQL INNER JOIN Keyword
 The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns in both tables.
@@ -43,15 +44,19 @@ The INNER JOIN keyword selects all rows from both tables as long as there is a m
 FROM table1
 INNER JOIN table2
 ON table1.column_name=table2.column_name;
+```
 
 ![alt text](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/img_innerjoin.gif "Inner JOIN")
 
 #SQL LEFT JOIN Keyword
-The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2). The result is NULL in the right side when there is no match.
+The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2). 
+The result is NULL in the right side when there is no match.
 ```SELECT column_name(s)
 FROM table1
 LEFT JOIN table2
 ON table1.column_name=table2.column_name;
+```
+
 
 ![alt text](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/img_leftjoin.gif "Left JOIN")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
@@ -66,7 +71,7 @@ SQL RIGHT JOIN Syntax
 FROM table1
 RIGHT JOIN table2
 ON table1.column_name=table2.column_name;
-
+```
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "right")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
 [sql join right](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1)
@@ -83,11 +88,14 @@ SQL FULL OUTER JOIN Syntax
 FROM table1
 FULL OUTER JOIN table2
 ON table1.column_name=table2.column_name;
+```
 
 #Diagram
 ![alt text](http://www.w3schools.com/sql/img_fulljoin.gif "full outter")
 #output
+
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlfullouterjoin.png "full outter")
+
 #example:
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
 
