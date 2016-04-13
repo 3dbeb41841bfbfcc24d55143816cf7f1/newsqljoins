@@ -40,6 +40,7 @@ Before we continue with examples, we will list the types of the different SQL JO
 The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns in both tables.
 
 #SQL INNER JOIN Syntax
+
 ```SELECT column_name(s)
 FROM table1
 INNER JOIN table2
@@ -49,8 +50,10 @@ ON table1.column_name=table2.column_name;
 ![alt text](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/img_innerjoin.gif "Inner JOIN")
 
 #SQL LEFT JOIN Keyword
-The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2). 
+
+The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2).
 The result is NULL in the right side when there is no match.
+
 ```SELECT column_name(s)
 FROM table1
 LEFT JOIN table2
