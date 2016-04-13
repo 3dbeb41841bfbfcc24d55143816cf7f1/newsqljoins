@@ -17,16 +17,15 @@ For the next 5 minutes, research SQL joins are
 
 [SQL Joins](http://www.w3schools.com/sql/sql_join.asp)
 
-![SQL joins diagram](Visual_SQL_JOINS_orig.jpg))
 
 ### T&T (5 / 15)
 Now, turn & talk to your neighbor and discuss:
 
-1. At a high level, what are ORM's and how might they be useful?
-2. What is the importance of interfacing the server with the database?
+1. At a high level, what are sql joins and how might they be useful?
+2. How many differnt join statements are there?
 
 
-![ERDs](./active-record.png)
+
 
 #Different SQL JOINs
 Before we continue with examples, we will list the types of the different SQL JOINs you can use:
@@ -85,8 +84,11 @@ SQL FULL OUTER JOIN Syntax
 `FULL OUTER JOIN table2
 `ON table1.column_name=table2.column_name;
 
+#Diagram
 ![alt text](http://www.w3schools.com/sql/img_fulljoin.gif "full outter")
+#output
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlfullouterjoin.png "full outter")
+#example:
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
 
 
