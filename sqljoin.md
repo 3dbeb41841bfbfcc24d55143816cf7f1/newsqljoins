@@ -58,7 +58,7 @@ ON table1.column_name=table2.column_name;
 ```
 
 
-![alt text](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/img_leftjoin.gif "Left JOIN")
+![alt text](http://www.w3schools.com/sql/img_leftjoin.gif "Left JOIN")
 ![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
 [sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
 
