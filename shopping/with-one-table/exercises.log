@@ -1,0 +1,113 @@
+DROP TABLE
+CREATE TABLE
+INSERT 0 17
+ id |      store       |        item         | number_of_items |  price  |  buy_date  
+----+------------------+---------------------+-----------------+---------+------------
+  1 | Sears            | PS4                 |               1 | $400.00 | 2015-01-02
+  2 | Toys R Us        | XBox One            |               1 | $500.00 | 2015-01-03
+  3 | Toys R Us        | TMNT Collectors Set |               1 |  $25.00 | 2015-01-03
+  4 | Sears            | Lego Set            |               1 |  $40.00 | 2015-01-02
+  5 | Borders          | Blood Meridian      |               3 |  $12.00 | 2015-01-05
+  6 | Borders          | Ham on Rye          |               2 |  $12.00 | 2015-01-05
+  7 | Local Book Store | The Last Tycoon     |               1 |  $14.00 | 2015-01-02
+  8 | Macy's           | Button Down Shirt   |               3 |  $28.50 | 2015-01-21
+  9 | JC Penny         | Nikes               |               1 | $100.00 | 2015-01-23
+ 10 | JC Penny         | tube socks          |               3 |  $28.00 | 2015-01-23
+ 11 | JC Penny         | Reeboks             |               1 |  $60.00 | 2015-01-23
+ 12 | JC Penny         | Umbrella, Red       |               1 |  $10.50 | 2015-01-23
+ 13 | JC Penny         | Boxer Shorts        |               3 |  $20.75 | 2015-01-23
+ 14 | JC Penny         | TMNT bedspread      |               1 |  $20.00 | 2015-01-23
+ 15 | Sears            | Packers Jersey      |               1 |  $50.00 | 2015-01-24
+ 16 | Toys R Us        | Life                |               1 |  $25.00 | 2015-01-24
+ 17 | Sears            | laptop bag          |              19 |  $40.50 | 2015-01-24
+(17 rows)
+
+      store       |        item         
+------------------+---------------------
+ Sears            | PS4
+ Toys R Us        | XBox One
+ Toys R Us        | TMNT Collectors Set
+ Sears            | Lego Set
+ Borders          | Blood Meridian
+ Borders          | Ham on Rye
+ Local Book Store | The Last Tycoon
+ Macy's           | Button Down Shirt
+ JC Penny         | Nikes
+ JC Penny         | tube socks
+ JC Penny         | Reeboks
+ JC Penny         | Umbrella, Red
+ JC Penny         | Boxer Shorts
+ JC Penny         | TMNT bedspread
+ Sears            | Packers Jersey
+ Toys R Us        | Life
+ Sears            | laptop bag
+(17 rows)
+
+ id |   store   |        item         | number_of_items |  price  |  buy_date  
+----+-----------+---------------------+-----------------+---------+------------
+  2 | Toys R Us | XBox One            |               1 | $500.00 | 2015-01-03
+  3 | Toys R Us | TMNT Collectors Set |               1 |  $25.00 | 2015-01-03
+ 16 | Toys R Us | Life                |               1 |  $25.00 | 2015-01-24
+(3 rows)
+
+      item      
+----------------
+ Blood Meridian
+ Ham on Rye
+(2 rows)
+
+      store       
+------------------
+ JC Penny
+ Borders
+ Toys R Us
+ Sears
+ Macy's
+ Local Book Store
+(6 rows)
+
+ sum 
+-----
+  44
+(1 row)
+
+ sum 
+-----
+  22
+(1 row)
+
+      store       | sum 
+------------------+-----
+ JC Penny         |  10
+ Borders          |   5
+ Toys R Us        |   3
+ Sears            |  22
+ Macy's           |   3
+ Local Book Store |   1
+(6 rows)
+
+    sum    
+-----------
+ $1,259.50
+(1 row)
+
+ round 
+-------
+ 1.667
+(1 row)
+
+      store       | round 
+------------------+-------
+ JC Penny         |  1.67
+ Borders          |  2.50
+ Toys R Us        |  1.00
+ Sears            |  5.50
+ Macy's           |  3.00
+ Local Book Store |  1.00
+(6 rows)
+
+    item    | ?column? 
+------------+----------
+ laptop bag |  $769.50
+(1 row)
+
