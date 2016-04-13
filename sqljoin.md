@@ -68,9 +68,9 @@ SQL RIGHT JOIN Syntax
 `RIGHT JOIN table2
 `ON table1.column_name=table2.column_name;
 
-![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
-![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/img_rightjoin.gif "example")
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqljoinright.png "example")
 [sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
 
-http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1
+
 
