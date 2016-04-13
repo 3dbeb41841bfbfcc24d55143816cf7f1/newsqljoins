@@ -59,5 +59,18 @@ The LEFT JOIN keyword returns all rows from the left table (table1), with the ma
 [sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
 
 
+#SQL RIGHT JOIN Keyword
+The RIGHT JOIN keyword returns all rows from the right table (table2), with the matching rows in the left table (table1). The result is NULL in the left side when there is no match.
 
+SQL RIGHT JOIN Syntax
+`SELECT column_name(s)
+`FROM table1
+`RIGHT JOIN table2
+`ON table1.column_name=table2.column_name;
+
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
+![alt text](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/sqlleft.png "example")
+[sql join left](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_left)
+
+http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_join_right&ss=-1
 
