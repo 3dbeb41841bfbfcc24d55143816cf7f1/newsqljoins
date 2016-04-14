@@ -16,7 +16,7 @@ For the next 5 minutes, research SQL joins are
 
 [SQL Joins](http://www.w3schools.com/sql/sql_join.asp)
 
-![SQL joins diagram](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/images/sql-joins.jpg)
+![SQL joins diagram](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/images/sql-joins.jpg)
 
 ### T&T (5 / 15)
 Now, turn & talk to your neighbor and discuss:
@@ -43,5 +43,5 @@ SQL INNER JOIN Syntax
 `INNER JOIN table2
 `ON table1.column_name=table2.column_name;
 
-![Inner JOIN](https://github.com/ATL-WDI-Curriculum/sql-joins/blob/master/images/img_innerjoin.gif)
+![Inner JOIN](https://github.com/ATL-WDI-Curriculum/newsqljoins/blob/master/images/img_innerjoin.gif)
 
